@@ -22,7 +22,6 @@ body {
 }
 .form div {
   width: 284px;
-  margin-bottom: 16px !important;
   margin: auto;
 }
 .form div div {
@@ -37,6 +36,7 @@ body {
   margin-bottom: 4px;
 }
 .form div input {
+  outline: none;
   margin: 0;
   width: 284px;
   height: 36px;
@@ -53,11 +53,11 @@ body {
   line-height: 15px;
   color: #B4B4B4;
 }
-.form div input:focus {
-  border: 1px;
-}
 .form div:nth-child(1) {
   margin-top: 24px;
+}
+.form div:nth-child(2) {
+  margin-bottom: 16px !important;
 }
 .form div:nth-child(2) input {
   height: 108px !important;
@@ -71,7 +71,7 @@ body {
   height: 36px;
   background: #EEEEEE;
   border-radius: 10px;
-  margin-top: 24px !important;
+  margin-top: 8px !important;
 }
 .button p {
   font-weight: 600;
@@ -119,6 +119,17 @@ body {
   font-size: 16px;
   line-height: 20px;
   margin-bottom: 32px;
+}
+
+.error {
+  visibility: hidden;
+  height: 10px;
+  font-size: 8px !important;
+  line-height: 10px !important;
+  letter-spacing: -0.02em !important;
+  color: #FF8484 !important;
+  margin-top: 4px !important;
+  margin-bottom: 2px !important;
 }
 
 @font-face {
