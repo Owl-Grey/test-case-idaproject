@@ -69,7 +69,3 @@ function button(a){
   }
   else {document.getElementById('button').classList.remove('button_active');}
 }
-
-
-
-document.getElementById('button').addEventListener('click', ()=>{alert("В разработке")});
