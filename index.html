@@ -6,9 +6,15 @@
  </head>
  <body>
    <div class="content">
-     <h1>Добавление товара</h1>
+     <div class="header">
+       <h1>Добавление товара</h1>
+       <select>
+          <option>По умолчанию</option>
+          <option>Как-то еще</option>
+       </select>
+     </div>
      <div class="form_table">
-       <div id="form "class="form">
+       <div class="form">
          <div>
            <div>
              <p>Наименование товара</p>
@@ -21,7 +27,7 @@
          </div>
          <div>
            <p>Описание товара</p>
-           <input type="text" placeholder="Введите описание товара">
+           <textarea placeholder="Введите описание товара"></textarea>
          </div>
          <div>
            <div>
@@ -43,7 +49,7 @@
            <input id="price" type="text" placeholder="Введите цену">
            <p id="price_undertext" class="error">Поле является обязательным</p>
          </div>
-         <div class="button">
+         <div id="button" class="button">
            <p>Добавить товар</p>
          </div>
        </div>
